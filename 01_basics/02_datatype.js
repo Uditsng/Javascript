@@ -23,7 +23,7 @@
 
 
 /*Two type of datatypes : primitive and non-primitive*/
-//  Primitive(call by value)
+//  Primitive(call by value) use stack memory
 //  7 types : String, Number, Boolean, null(empty), undefined, Symbol, BigInt
 
 const score = 100
@@ -40,7 +40,7 @@ const anotherId = Symbol('123')
 
 // const bigNumber = 3456543576654356754n
 
-// Non primitive(call by reference)
+// Non primitive(call by reference) use heap memory
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
