@@ -43,13 +43,14 @@ const anotherId = Symbol('123')
 // Non primitive(call by reference) use heap memory
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
+const heros = ["shaktiman", "naagraj", "doga"]; //ARRAY
+
+let myObj = {                                   //OBJECT
     name: "hitesh",
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){                   //FUNCTION
     console.log("Hello world");
 }
 myFunction()
